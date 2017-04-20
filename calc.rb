@@ -112,12 +112,12 @@ def result(usr_text)
 
     squ_num = square.find{|n| n == num}
     if squ_num then
-      text += "\n#{num} = #{square.index(num)+1}× #{square.index(num)+1}より、#{num}は平方数です。"
+      text += "\n#{num} = #{square.index(num)+1}×#{square.index(num)+1}より、#{num}は平方数です。"
     end
 
     cub_num = cubic.find{|n| n == num}
     if cub_num then
-      text += "\n#{num} = #{cubic.index(num)+1}× #{cubic.index(num)+1}× #{cubic.index(num)+1}より、#{num}は立方数です。"
+      text += "\n#{num} = #{cubic.index(num)+1}×#{cubic.index(num)+1}×#{cubic.index(num)+1}より、#{num}は立方数です。"
     end
 
     fac_num = factorial.find{|n| n == num}
